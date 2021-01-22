@@ -1,0 +1,31 @@
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container {
+    text-align: center;
+}
+.container h2 {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2.5rem;
+}
+.color {
+    color: rgb(104, 100, 148);
+}
+.btn-hero {
+    background: transparent;
+    border: 2px solid #222;
+    padding: 1em;
+    border-radius: 00.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-hero:hover {
+    background-color: #222;
+    color: #fff;
+}

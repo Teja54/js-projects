@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
+.giveaway {
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.gift-img {
+    margin-bottom: 2rem
+}
+.gift-info h3 {
+    text-transform: uppercase;
+    color: black;
+}
+.gift-info p {
+    color: gray;
+}
+.date {
+    color: gray;
+    font-size: 0.85rem;
+}
+@media screen and (min-width: 992px) {
+    .section-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+      gap: 3rem;
+      width: 95vw;
+    }
+    .gift-img {
+      margin-bottom: 0;
+    }
+}
+.gift-info p {
+    margin: 2rem 0;
+}
+.deadline {
+    display: flex;
+}
+.deadline-format {
+    background: black;
+    color: #fff;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.deadline-format span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+.photo {
+    height: auto;
+    width: 100%;
+}
